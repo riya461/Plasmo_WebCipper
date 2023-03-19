@@ -1,0 +1,40 @@
+{
+  "name": "webclipper",
+  "displayName": "webclipper",
+  "version": "0.0.1",
+  "description": "setting up extension",
+  "author": "Srutav Tarun, Riya Sabu, Adithya D, Devika B.",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@plasmohq/storage": "^1.3.0",
+    "dotenv": "^16.0.3",
+    "google-search-results-nodejs": "^2.1.0",
+    "plasmo": "0.65.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "serpapi": "^1.1.1"
+  },
+  "devDependencies": {
+    "@plasmohq/prettier-plugin-sort-imports": "3.6.1",
+    "@types/chrome": "0.0.210",
+    "@types/node": "18.11.18",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "prettier": "2.8.3",
+    "typescript": "4.9.4"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://*/*"
+    ],
+    "permissions": [
+      "tabs",
+      "contextMenus"
+    ]
+  }
+}
